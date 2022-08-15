@@ -1,6 +1,6 @@
 import peewee
 import random
-
+print(10)
 db = peewee.SqliteDatabase('data.db')
 
 
