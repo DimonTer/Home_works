@@ -49,7 +49,7 @@ def zakupka(name:str, zakaz:int):
 zakupka('product_name11', 40)
 
 
-"""
+
 c1 = Category.create(name='category1')
 c2 = Category.create(name='category2')
 c3 = Category.create(name='category3')
@@ -68,4 +68,4 @@ p11 = Product.create(name='product_name1',category=c3, price=random.randint(300,
 p12 = Product.create(name='product_name1',category=c1, price=random.randint(300, 500), stock=random.randint(10, 700))
 p13 = Product.create(name='product_name1',category=c2, price=random.randint(300, 500), stock=random.randint(10, 700))
 
-"""
+
